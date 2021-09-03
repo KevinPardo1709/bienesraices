@@ -1,6 +1,7 @@
-<?php
+<?php 
 
-include 'includes/templates/header.php'
+    require 'includes/funciones.php';
+    incluirTemplate('header');
 
 ?>
 
@@ -15,7 +16,7 @@ include 'includes/templates/header.php'
     </picture>
 
     <div class="resumen-propiedad">
-        <p class="precio">$3,000,000</p>
+        <p class="precio">$3.000.000</p>
         <ul class="iconos-caracteristicas">
             <li>
                 <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
@@ -37,8 +38,8 @@ include 'includes/templates/header.php'
     </div>
 </main>
 
-<?php
+<?php 
 
-include 'includes/templates/footer.php';
+    incluirTemplate('footer');
 
 ?>
