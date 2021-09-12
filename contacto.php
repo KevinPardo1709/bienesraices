@@ -5,7 +5,7 @@
 
 ?>
 
-    <main class="contenedor seccion">
+    <main class="contenedor seccion contenido-centrado">
         <h1>Contacto</h1>
 
         <picture>

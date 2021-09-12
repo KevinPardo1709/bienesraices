@@ -2,7 +2,7 @@
 
 
 function conectarDB() : mysqli {
-    $db = mysqli_connect('localhost','root','root','bienesraices');
+    $db = mysqli_connect('localhost','root','','bienesraices');
 
 
     if(!$db) {
